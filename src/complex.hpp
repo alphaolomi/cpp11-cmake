@@ -10,20 +10,21 @@
  * @brief Class that represent complex number.
  */
 
-class Complex {
+class Complex
+{
 private:
 	double real;
 	double imaginary;
 
 public:
 	// Constructor
-	Complex(double=0, double=0);
+	Complex(double = 0, double = 0);
 	// Copy constructor
-	Complex(const Complex& rhs);
+	Complex(const Complex &rhs);
 	// Destructor
 	~Complex();
 	// Assigment operator
-	Complex& operator=(const Complex& rhs);
+	Complex &operator=(const Complex &rhs);
 	// Methods
 	double getReal() const;
 	double getImag() const;
